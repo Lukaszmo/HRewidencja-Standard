@@ -1,0 +1,110 @@
+.ui.button.tableButton{
+    background: transparent ;
+}
+
+i.icon.tableIcon{
+    color: #00b5ad;
+}
+
+.ui.modal.del-confirm{
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    
+}
+
+.ui.modal.del-confirm>.header{
+    color: #00b5ad;
+}
+
+.ui.primary.button{
+    background-color: #00b5ad;
+}
+
+.ui.primary.button:hover{
+    background-color: #009c95;
+}
+
+.ui.grid>.row{
+    padding: 20px;
+}
+
+.ui.label.positive{
+    background-color: #33cc33;
+    color: #ffffff;
+    text-align: center;
+    margin-left:2em; 
+}
+
+.ui.label.negative{
+    background-color: #ff3300;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ui.label.waiting{
+    background-color: #ffd11a;
+    color: #ffffff;
+    text-align: center; 
+    margin-left:2em; 
+}
+
+.width5{
+    width: 5%;
+    vertical-align: middle !important;
+    font-size: small;
+}
+
+.width10{
+    width: 10%;
+    vertical-align: middle !important;
+    font-size: small;
+}
+
+.width15{
+    width: 15%;
+    vertical-align: middle !important;
+    font-size: small;
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+
+.width20{
+    width: 20%;
+    vertical-align: middle !important;
+    font-size: small;
+}
+
+.row-positive{
+    background-color: #eefce5; 
+}
+
+.row-negative{
+    background-color: #fdeced; 
+}
+
+/*.tableRow{
+
+} */
+
+.tableRow:hover, .row-positive:hover, .row-negative:hover { 
+    background-color: #f0f0f3;
+}
+
+
+@media (max-width: 599px){
+
+    .width15{
+        text-align: center !important;
+    }
+
+    .ui.label{
+        display: block;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .ui.modal.del-confirm{
+        width: 80%;
+    }
+}

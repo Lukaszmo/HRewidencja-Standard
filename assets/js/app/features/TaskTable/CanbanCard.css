@@ -1,0 +1,43 @@
+
+.ui.card{
+    width: 100%;
+    cursor: pointer;
+}
+
+.ui.card:hover{
+    transform: scale(1.03);
+}
+
+.ui.card > .content > .header.canban{
+    font-size: 16px;
+}
+
+.ui.card.todo{
+    background-color: #f0f0f3;
+}
+
+.ui.card.todo:hover{
+    background-color: #dcdce4;
+}
+
+
+.ui.card.in-progress{
+    background-color: #FFFACD;
+}
+
+.ui.card.in-progress:hover{
+    background-color: #f7f1bc;
+}
+
+.ui.card.done{
+    background-color: #eefce5;
+}
+
+.ui.card.done:hover{
+    background-color: #e3f7d6;
+}
+
+.ui.label.initials{
+    margin: 10px;
+}
+

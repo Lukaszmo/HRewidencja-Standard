@@ -1,0 +1,34 @@
+.ui.header.filter-header{
+    color: #016cc7;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.ui.segment.hour-list-segment{
+    background-color: #f9fafb;
+}
+
+.ui.dropdown.dropdown-userlist{
+    width: 170px;
+}
+
+@media (min-width: 600px) and (max-width: 1199px){
+    .ui.input.filter-date{
+        width: 200px;
+    }
+}
+
+@media (max-width: 599px){
+
+    .ui.input.filter-date{
+        width: 200px;
+    }
+
+    .ui.dropdown.dropdown-userlist{
+        width: 200px;
+    }
+
+    
+
+}

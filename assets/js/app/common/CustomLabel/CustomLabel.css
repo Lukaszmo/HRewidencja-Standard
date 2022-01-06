@@ -1,0 +1,8 @@
+.ui.pointing.label.custom-label{
+    position: absolute;
+    display: block;
+    width: max-content; 
+    margin: 5px;
+    background-color: #ff9494;
+    color: #ffffff;
+}

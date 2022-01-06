@@ -1,0 +1,35 @@
+.ui.segment.segment-type{
+    width: 38%;
+    float: left;
+}
+
+.ui.segment.segment-tasks{
+    width: 60%;
+    float: right;
+    margin-left: 2%;
+}
+
+.ui.segment.segment-projects{
+    width: 38%;
+    clear: left;
+    float: left;
+}
+
+@media (max-width: 599px){
+
+    .ui.segment.segment-type{
+        width: 100%;
+        float: center;
+    }
+    
+    .ui.segment.segment-tasks{
+        width: 100%;
+        float: center;
+    }
+    
+    .ui.segment.segment-projects{
+        width: 100%;
+        float: center;
+    }
+
+}

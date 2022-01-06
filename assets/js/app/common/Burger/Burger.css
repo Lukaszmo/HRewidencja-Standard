@@ -1,0 +1,24 @@
+.burger{
+    display: none;
+}
+
+@media (max-width: 599px){
+
+    .burger{
+        display: initial;
+        float: left;
+        height: 60px;
+        width: 20%;
+        text-align: center;
+        padding: 15px;
+        color: #838282;
+        border: 1px;
+        border-right-style: dotted;
+        border-right-color: #e6e6e6;
+    }
+
+    .close.big.icon.menu-button{
+        color: #838282;
+    }
+
+}

@@ -16,8 +16,8 @@ class DefaultController extends AbstractController
      * @Route("/raporty/{reactRouting}", name="raporty")
      * @Route("/panel-admina/{reactRouting}", name="panel-admina")
      */
-  /*  public function index()
+    public function index()
     {
        return $this->render('base.html.twig');
-    } */
+    } 
 }

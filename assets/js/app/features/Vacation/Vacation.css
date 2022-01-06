@@ -1,0 +1,102 @@
+.ui.segment.vacation-new-request{
+    float: left;
+    width: 69%;
+}
+
+.ui.segment.vacation-days-left{
+    float: right;
+    margin-top: 0;
+    width: 29%;
+    text-align: center;
+}
+
+.ui.dropdown.dropdown-vacation-types{
+    width: 200px;
+}
+
+.days-left{
+    font-size: 38px;   
+}
+
+.ui.label.neutral{
+    background-color: #828485;
+    color: #ffffff;
+    text-align: center;
+    margin-left:2em; 
+}
+
+.vacation-button-row{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#label-left{ 
+    margin-left: 0em;
+    width: 160px ;
+}
+
+.vacation-comment{
+    width: 200px !important;
+}
+
+
+
+.custom-header{
+    float: left;
+    width: 90%;
+}
+
+#custom-divider-vacation{
+    margin-top: 100px;
+}
+
+#pdf-icon{
+    clear:both;
+}
+
+#pdf-icon:hover{
+    color: #f40f02;
+    cursor: pointer;
+}
+
+
+@media (min-width: 600px) and (max-width: 1199px){
+
+    .ui.container.vacation{
+        width: 60%;
+        margin-left: 40% !important;
+    } 
+}
+
+
+@media (max-width: 599px){
+
+
+    .ui.input.vacation-quantity{
+        width: 80px;
+        display: grid;
+    }
+
+    .button-row{
+        width:100%;
+        margin-left: 0px !important;
+    }
+
+    .vacation-button-row{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .ui.button.saveButton{
+        width: 100%;
+    }
+
+    .ui.button.cancelButton{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .print-bar{
+        display: none;
+    }
+}

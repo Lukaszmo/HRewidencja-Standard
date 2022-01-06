@@ -1,0 +1,17 @@
+.main-container{
+    height: 1200px; 
+    background-color: #f0f0f3;
+    /*display:flex; */
+    
+}
+
+@media (max-width: 599px){
+
+  /* height 100% nie działa - do zbadania 
+    .main-container{
+        height: 100% !important;
+    } */
+}
+
+
+

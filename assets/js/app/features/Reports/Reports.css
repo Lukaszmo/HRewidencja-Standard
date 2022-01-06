@@ -1,0 +1,81 @@
+.ui.segment.report-segment{
+    background-color: #f9fafb;
+}
+
+.ui.segment.chart-segment{
+    display: inline-block;
+    width: 100%;
+}
+
+.ui.segment.chart-inner-segment{
+    float: left;
+    width: 40%;
+}
+
+.ui.segment.project-report-table-segment{
+    float: right;
+    width: 59%;
+    margin-left: 1%;
+}
+
+.report-table{
+    overflow-x: auto;
+    overflow-y: auto; 
+}
+
+.cell-day-off{
+    background-color: #faeded;
+}
+
+.cell{
+    font-size: 12px;
+}
+
+.ui.celled.table td{
+    padding-left: 2px;
+    padding-right: 2px; 
+
+}  
+
+.ui.table.monthly-report{
+    font-size: 12px;
+}
+
+.ui.dropdown.dropdown-year{
+    width: 200px;
+}
+
+.ui.dropdown.dropdown-month{
+    width: 200px;
+}
+
+.ui.dropdown.dropdown-userlist{
+    width: 200px;
+}
+
+.ui.dropdown.dropdown-project{
+    width: 200px;
+}
+
+.ui.segment.printbar{
+    height: 90px;
+}
+
+#excel-icon:hover{
+    color: #1d6f42;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) and (max-width: 1199px){
+
+    .ui.container.reports{
+        width: 60%;
+        margin-left: 40% !important;
+    } 
+}
+
+@media (max-width: 599px){
+    .ui.segment.chart-segment{
+      display: grid;
+    }
+}

@@ -1,0 +1,68 @@
+/*cssy dla elementów które są używane w całej aplikacji*/
+
+.ui.dimmer{
+    background-color: rgba(0,0,0,0.1); 
+}
+
+body{
+    background-color: #f0f0f3;
+}
+
+.ui.container{
+    margin-left: 20% !important;
+    width: 80%;
+    padding: 0px 15px 15px !important;
+}
+
+.ui.segment{
+    margin-top: 10px !important;
+}
+
+.print-icon{
+    float: left;
+    width: 8%;
+    font-size: 22px;
+    padding: 10px; 
+    color: #838282;
+}
+
+@media (min-width: 600px) and (max-width: 1199px){
+
+    .ui.container{
+        width: 100%;
+    }
+
+    .ui.segment{
+        width: 100% !important;
+    }
+
+    .ui.grid .row{
+        display: grid;
+    }
+
+    .button-row{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+}
+
+
+@media (max-width: 599px){
+
+    .ui.container{
+        width: 100%;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .ui.segment{
+        width: 100% !important;
+    }
+
+    .ui.grid .row{
+        display: grid;
+        white-space: nowrap;
+    }
+
+    
+}

@@ -1,0 +1,12 @@
+.ui.popup.user-details-popup{
+    border-color: #f0f0f3;
+}
+
+.ui.button.settings-button{
+    background-color: #ff6663;
+    color: #ffffff;
+}
+
+.ui.button.settings-button:hover{
+    background-color: #e64e4b;
+}
