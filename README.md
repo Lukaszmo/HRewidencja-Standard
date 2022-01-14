@@ -16,4 +16,11 @@ Frontend:
 - React JS
 - Semantic UI
 
-[Link to repository](https://github.com/Lukaszmo/timesheet_FE_React)
+## Installation:
+```sh
+composer install
+npm install
+npm run build
+php bin/console server:run
+open http://127.0.0.1:8000
+```
