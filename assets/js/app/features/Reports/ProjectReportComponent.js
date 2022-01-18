@@ -115,6 +115,7 @@ class ProjectReportComponent extends Component {
                                                 showLabels={true} />
                                         ) : (
                                             <RadialChart
+                                                className='radial-chart'
                                                 data={data}
                                                 width={350}
                                                 height={350}

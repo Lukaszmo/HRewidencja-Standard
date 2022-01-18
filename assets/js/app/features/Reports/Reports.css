@@ -61,6 +61,11 @@
     height: 90px;
 }
 
+.radial-chart{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #excel-icon:hover{
     color: #1d6f42;
     cursor: pointer;
