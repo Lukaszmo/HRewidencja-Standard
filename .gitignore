@@ -7,8 +7,6 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-/vendor/
-/node_modules/
 /src/Migrations
 
 ###> symfony/webpack-encore-bundle ###
