@@ -1,4 +1,4 @@
-# Timesheet
+# HRewidencja
 App features:
 - Registration of working time
 - Electronical vacation requests
